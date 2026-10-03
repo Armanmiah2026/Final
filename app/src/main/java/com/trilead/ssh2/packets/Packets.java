@@ -1,0 +1,126 @@
+package com.trilead.ssh2.packets;
+
+/* JADX INFO: compiled from: r8-map-id-00735fe6446b7f9f17dce574405a24dabe5e3f583c7585d5161835d7802417a9 */
+/* JADX INFO: loaded from: classes.dex */
+public class Packets {
+    public static final int SSH_DISCONNECT_AUTH_CANCELLED_BY_USER = 13;
+    public static final int SSH_DISCONNECT_BY_APPLICATION = 11;
+    public static final int SSH_DISCONNECT_COMPRESSION_ERROR = 6;
+    public static final int SSH_DISCONNECT_CONNECTION_LOST = 10;
+    public static final int SSH_DISCONNECT_HOST_KEY_NOT_VERIFIABLE = 9;
+    public static final int SSH_DISCONNECT_HOST_NOT_ALLOWED_TO_CONNECT = 1;
+    public static final int SSH_DISCONNECT_ILLEGAL_USER_NAME = 15;
+    public static final int SSH_DISCONNECT_KEY_EXCHANGE_FAILED = 3;
+    public static final int SSH_DISCONNECT_MAC_ERROR = 5;
+    public static final int SSH_DISCONNECT_NO_MORE_AUTH_METHODS_AVAILABLE = 14;
+    public static final int SSH_DISCONNECT_PROTOCOL_ERROR = 2;
+    public static final int SSH_DISCONNECT_PROTOCOL_VERSION_NOT_SUPPORTED = 8;
+    public static final int SSH_DISCONNECT_RESERVED = 4;
+    public static final int SSH_DISCONNECT_SERVICE_NOT_AVAILABLE = 7;
+    public static final int SSH_DISCONNECT_TOO_MANY_CONNECTIONS = 12;
+    public static final int SSH_EXTENDED_DATA_STDERR = 1;
+    public static final int SSH_MSG_CHANNEL_CLOSE = 97;
+    public static final int SSH_MSG_CHANNEL_DATA = 94;
+    public static final int SSH_MSG_CHANNEL_EOF = 96;
+    public static final int SSH_MSG_CHANNEL_EXTENDED_DATA = 95;
+    public static final int SSH_MSG_CHANNEL_FAILURE = 100;
+    public static final int SSH_MSG_CHANNEL_OPEN = 90;
+    public static final int SSH_MSG_CHANNEL_OPEN_CONFIRMATION = 91;
+    public static final int SSH_MSG_CHANNEL_OPEN_FAILURE = 92;
+    public static final int SSH_MSG_CHANNEL_REQUEST = 98;
+    public static final int SSH_MSG_CHANNEL_SUCCESS = 99;
+    public static final int SSH_MSG_CHANNEL_WINDOW_ADJUST = 93;
+    public static final int SSH_MSG_DEBUG = 4;
+    public static final int SSH_MSG_DISCONNECT = 1;
+    public static final int SSH_MSG_GLOBAL_REQUEST = 80;
+    public static final int SSH_MSG_IGNORE = 2;
+    public static final int SSH_MSG_KEXDH_INIT = 30;
+    public static final int SSH_MSG_KEXDH_REPLY = 31;
+    public static final int SSH_MSG_KEXINIT = 20;
+    public static final int SSH_MSG_KEX_DH_GEX_GROUP = 31;
+    public static final int SSH_MSG_KEX_DH_GEX_INIT = 32;
+    public static final int SSH_MSG_KEX_DH_GEX_REPLY = 33;
+    public static final int SSH_MSG_KEX_DH_GEX_REQUEST = 34;
+    public static final int SSH_MSG_KEX_DH_GEX_REQUEST_OLD = 30;
+    public static final int SSH_MSG_NEWKEYS = 21;
+    public static final int SSH_MSG_REQUEST_FAILURE = 82;
+    public static final int SSH_MSG_REQUEST_SUCCESS = 81;
+    public static final int SSH_MSG_SERVICE_ACCEPT = 6;
+    public static final int SSH_MSG_SERVICE_REQUEST = 5;
+    public static final int SSH_MSG_UNIMPLEMENTED = 3;
+    public static final int SSH_MSG_USERAUTH_BANNER = 53;
+    public static final int SSH_MSG_USERAUTH_FAILURE = 51;
+    public static final int SSH_MSG_USERAUTH_INFO_REQUEST = 60;
+    public static final int SSH_MSG_USERAUTH_INFO_RESPONSE = 61;
+    public static final int SSH_MSG_USERAUTH_REQUEST = 50;
+    public static final int SSH_MSG_USERAUTH_SUCCESS = 52;
+    public static final int SSH_OPEN_ADMINISTRATIVELY_PROHIBITED = 1;
+    public static final int SSH_OPEN_CONNECT_FAILED = 2;
+    public static final int SSH_OPEN_RESOURCE_SHORTAGE = 4;
+    public static final int SSH_OPEN_UNKNOWN_CHANNEL_TYPE = 3;
+    private static final String[] reverseNames;
+
+    static {
+        String[] strArr = new String[101];
+        reverseNames = strArr;
+        strArr[1] = "SSH_MSG_DISCONNECT";
+        strArr[2] = "SSH_MSG_IGNORE";
+        strArr[3] = "SSH_MSG_UNIMPLEMENTED";
+        strArr[4] = "SSH_MSG_DEBUG";
+        strArr[5] = "SSH_MSG_SERVICE_REQUEST";
+        strArr[6] = "SSH_MSG_SERVICE_ACCEPT";
+        strArr[20] = "SSH_MSG_KEXINIT";
+        strArr[21] = "SSH_MSG_NEWKEYS";
+        strArr[30] = "SSH_MSG_KEXDH_INIT";
+        strArr[31] = "SSH_MSG_KEXDH_REPLY/SSH_MSG_KEX_DH_GEX_GROUP";
+        strArr[32] = "SSH_MSG_KEX_DH_GEX_INIT";
+        strArr[33] = "SSH_MSG_KEX_DH_GEX_REPLY";
+        strArr[34] = "SSH_MSG_KEX_DH_GEX_REQUEST";
+        strArr[50] = "SSH_MSG_USERAUTH_REQUEST";
+        strArr[51] = "SSH_MSG_USERAUTH_FAILURE";
+        strArr[52] = "SSH_MSG_USERAUTH_SUCCESS";
+        strArr[53] = "SSH_MSG_USERAUTH_BANNER";
+        strArr[60] = "SSH_MSG_USERAUTH_INFO_REQUEST";
+        strArr[61] = "SSH_MSG_USERAUTH_INFO_RESPONSE";
+        strArr[80] = "SSH_MSG_GLOBAL_REQUEST";
+        strArr[81] = "SSH_MSG_REQUEST_SUCCESS";
+        strArr[82] = "SSH_MSG_REQUEST_FAILURE";
+        strArr[90] = "SSH_MSG_CHANNEL_OPEN";
+        strArr[91] = "SSH_MSG_CHANNEL_OPEN_CONFIRMATION";
+        strArr[92] = "SSH_MSG_CHANNEL_OPEN_FAILURE";
+        strArr[93] = "SSH_MSG_CHANNEL_WINDOW_ADJUST";
+        strArr[94] = "SSH_MSG_CHANNEL_DATA";
+        strArr[95] = "SSH_MSG_CHANNEL_EXTENDED_DATA";
+        strArr[96] = "SSH_MSG_CHANNEL_EOF";
+        strArr[97] = "SSH_MSG_CHANNEL_CLOSE";
+        strArr[98] = "SSH_MSG_CHANNEL_REQUEST";
+        strArr[99] = "SSH_MSG_CHANNEL_SUCCESS";
+        strArr[100] = "SSH_MSG_CHANNEL_FAILURE";
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:6:0x000a  */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct code enable 'Show inconsistent code' option in preferences
+    */
+    public static final java.lang.String getMessageName(int r2) {
+        /*
+            if (r2 < 0) goto La
+            java.lang.String[] r0 = com.trilead.ssh2.packets.Packets.reverseNames
+            int r1 = r0.length
+            if (r2 >= r1) goto La
+            r0 = r0[r2]
+            goto Lb
+        La:
+            r0 = 0
+        Lb:
+            if (r0 != 0) goto L14
+            java.lang.String r0 = "UNKNOWN MSG "
+            java.lang.String r2 = sensei0.za0.h(r2, r0)
+            return r2
+        L14:
+            return r0
+        */
+        throw new UnsupportedOperationException("Method not decompiled: com.trilead.ssh2.packets.Packets.getMessageName(int):java.lang.String");
+    }
+}

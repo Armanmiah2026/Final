@@ -1,0 +1,18 @@
+package sensei0;
+
+import android.R;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class m30 {
+    public static final int[] a = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, androidx.preference.R.attr.disableDependentsState, androidx.preference.R.attr.summaryOff, androidx.preference.R.attr.summaryOn};
+    public static final int[] b = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, androidx.preference.R.attr.dialogIcon, androidx.preference.R.attr.dialogLayout, androidx.preference.R.attr.dialogMessage, androidx.preference.R.attr.dialogTitle, androidx.preference.R.attr.negativeButtonText, androidx.preference.R.attr.positiveButtonText};
+    public static final int[] c = {androidx.preference.R.attr.useSimpleSummaryProvider};
+    public static final int[] d = {R.attr.entries, R.attr.entryValues, androidx.preference.R.attr.entries, androidx.preference.R.attr.entryValues, androidx.preference.R.attr.useSimpleSummaryProvider};
+    public static final int[] e = {R.attr.entries, R.attr.entryValues, androidx.preference.R.attr.entries, androidx.preference.R.attr.entryValues};
+    public static final int[] f = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, androidx.preference.R.attr.allowDividerAbove, androidx.preference.R.attr.allowDividerBelow, androidx.preference.R.attr.defaultValue, androidx.preference.R.attr.dependency, androidx.preference.R.attr.enableCopying, androidx.preference.R.attr.enabled, androidx.preference.R.attr.fragment, androidx.preference.R.attr.icon, androidx.preference.R.attr.iconSpaceReserved, androidx.preference.R.attr.isPreferenceVisible, androidx.preference.R.attr.key, androidx.preference.R.attr.layout, androidx.preference.R.attr.order, androidx.preference.R.attr.persistent, androidx.preference.R.attr.selectable, androidx.preference.R.attr.shouldDisableView, androidx.preference.R.attr.singleLineTitle, androidx.preference.R.attr.summary, androidx.preference.R.attr.title, androidx.preference.R.attr.widgetLayout};
+    public static final int[] g = {R.attr.orderingFromXml, androidx.preference.R.attr.initialExpandedChildrenCount, androidx.preference.R.attr.orderingFromXml};
+    public static final int[] h = {R.attr.maxWidth, R.attr.maxHeight, androidx.preference.R.attr.maxHeight, androidx.preference.R.attr.maxWidth};
+    public static final int[] i = {R.attr.layout, R.attr.max, androidx.preference.R.attr.adjustable, androidx.preference.R.attr.min, androidx.preference.R.attr.seekBarIncrement, androidx.preference.R.attr.showSeekBarValue, androidx.preference.R.attr.updatesContinuously};
+    public static final int[] j = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, androidx.preference.R.attr.disableDependentsState, androidx.preference.R.attr.summaryOff, androidx.preference.R.attr.summaryOn, androidx.preference.R.attr.switchTextOff, androidx.preference.R.attr.switchTextOn};
+    public static final int[] k = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, androidx.preference.R.attr.disableDependentsState, androidx.preference.R.attr.summaryOff, androidx.preference.R.attr.summaryOn, androidx.preference.R.attr.switchTextOff, androidx.preference.R.attr.switchTextOn};
+}

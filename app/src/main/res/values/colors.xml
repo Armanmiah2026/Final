@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App-owned launcher background. Other AndroidX/Material colors come from their libraries. -->
+    <color name="launcher_background">#000000</color>
+</resources>
