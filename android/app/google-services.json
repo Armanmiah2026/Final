@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921796893148",
+    "project_id": "v2ray-guard-vpn",
+    "storage_bucket": "v2ray-guard-vpn.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921796893148:android:62300d1d345e326a7b5719",
+        "android_client_info": {
+          "package_name": "com.app.v2rayguardvpn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhHxLeQDAXbx9zspDOf2DVBXJH99JzE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
