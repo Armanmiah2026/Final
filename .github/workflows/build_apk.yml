@@ -19,15 +19,15 @@ jobs:
           distribution: 'temurin'
 
       - name: Make gradlew executable
-        run: chmod +x free_vpn/android/gradlew
+        run: chmod +x android/gradlew
 
       - name: Build APK with Gradle
         run: |
-          cd free_vpn/android
+          cd android
           ./gradlew assembleRelease
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: app-release-apk
-          path: free_vpn/android/app/build/outputs/apk/release/*.apk
+          path: android/app/build/outputs/apk/release/*.apk
