@@ -7,7 +7,7 @@ class AppConfig {
   static const bool useLocalBackend = false;
 
   static const String localPort = '8000';
-  static const String productionBaseUrl = 'https://powerbtr.online';
+  static const String productionBaseUrl = 'https://resellervpn.pixivpn.com';
 
   static String get baseUrl {
     if (!useLocalBackend) {
